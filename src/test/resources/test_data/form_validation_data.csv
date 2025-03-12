@@ -1,0 +1,3 @@
+Scenario,ContactName,ContactNumber,PickUpDate,PaymentMethod,ExpectedErrorMessage1,ExpectedErrorMessage2,ExpectedErrorMessage3,ExpectedErrorMessage4
+Valid Data,Asif Rahimov,050-6697618,06/11/2015,cash on delivery,,,,
+Invalid Data,,abc123,,cash or delivery,Please enter your Contact name.,Please provide your Contact number.,Please provide valid Date.,Please select the Payment Method.
