@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/features/dynamic_controls.feature",
         glue = "stepDefinitions/dynamicControls",
         plugin = {"pretty", "html:target/dynamic-page.html"},
-        monochrome = true
+        monochrome = false
 )
 public class TestRunnerDynamic extends AbstractTestNGCucumberTests {
 }

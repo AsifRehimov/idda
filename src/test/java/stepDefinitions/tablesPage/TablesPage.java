@@ -27,7 +27,7 @@ public class TablesPage {
 
     @When("User extracts values from the {string} column")
     public void user_extracts_values_from_the_column(String columnName) {
-        this.columnName = columnName; // Store the column name
+        this.columnName = columnName;
         List<String> columnValues = tablesPage.getColumnValues(columnName);
     }
 

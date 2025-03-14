@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/features/tables_page.feature",
         glue = "stepDefinitions/tablesPage",
         plugin = {"pretty", "html:target/tables-page.html"},
-        monochrome = true
+        monochrome = false
 )
 public class TestRunnerTable extends AbstractTestNGCucumberTests {
 }
