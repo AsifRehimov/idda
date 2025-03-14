@@ -22,10 +22,10 @@
 2. **Install Maven**: Download and install Maven.
 3. **Clone the repository**:
    ```bash
-   git clone https://github.com/AsifRehimov/IDDA.git
+   git clone https://github.com/AsifRehimov/idda.git
 Navigate to the project folder:
 ```bash
-cd IDDA
+cd idda
 ```
 
 Install dependencies:
